@@ -9,6 +9,6 @@ git commit -m "${message}"
 #else
   git status
   echo "Pushing data"
-  git push 
+  git push origin master
 #fi
 
