@@ -6,9 +6,9 @@ git commit -m "${message}"
 if [ -z "$(git status --porcelain)" ];
   then
     echo "CLEAN"
-  else
-    git status
-    echo "Pushing data"
-    git push 
+else
+  git status
+  echo "Pushing data"
+  git push 
 fi
 
