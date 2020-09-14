@@ -9,6 +9,6 @@ if [ -z "$(git status --porcelain)" ];
   else
     git status
     echo "Pushing data"
-    git push -u origin master
+    git push origin master
 fi
 
